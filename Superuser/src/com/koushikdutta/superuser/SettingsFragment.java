@@ -119,6 +119,9 @@ public class SettingsFragment extends BetterListFragment {
     protected void onCreate(Bundle savedInstanceState, View view) {
         super.onCreate(savedInstanceState, view);
 
+        clearSection(R.string.security);
+        clearSection(R.string.settings);
+		
         // NOTE to future koush
         // dark icons use the color #f3f3f3
 

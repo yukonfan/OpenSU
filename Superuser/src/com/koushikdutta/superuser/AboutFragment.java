@@ -38,6 +38,9 @@ public class AboutFragment extends BetterListFragment {
         }
         catch (NameNotFoundException e) {
         }
+		
+        clearSection(R.string.about);
+        clearSection(R.string.apps);
 
         addItem(R.string.about, new ListItem(this, getString(R.string.superuser), version, R.drawable.ic_launcher) {
             @Override
